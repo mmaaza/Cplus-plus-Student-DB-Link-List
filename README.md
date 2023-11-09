@@ -1,8 +1,7 @@
 # C++: Student Database by using Link List
 Student Database using Link List (Structural Node) by the use of functions and procedural approach<br>
 <br>
-
-
+The program has following structures:
 ##### student:
 ```
   struct Student {
@@ -35,20 +34,4 @@ gets the registration number from the user and search it in the array. if found,
 utilizes the **searchRec()** function and deletes the specific index by overwriting the data to one prior position.<br/>
 #### main():
 tester for all the things
-<br>
-<br>
 
-**Program also contains the updation Menu** <br>
-First of all, the user enters the registration number of the student. Then if available, following operations can be performed<br>
-#### updateRecord():
-updateRec() shows the updation menu and calls all the updation functions.<br/>
-#### updateRegNo():
-updates registration number of the student.<br/>
-#### updateName():
-updates name of the student.<br/>
-#### updateMarks():
-updates subject marks of the student.<br/>
-#### updateDob():
-updates date of birth of the student.<br/>
-#### updateDoa():
-updates date of admission of the student.<br/>
